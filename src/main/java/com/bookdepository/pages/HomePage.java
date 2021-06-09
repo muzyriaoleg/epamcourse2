@@ -22,5 +22,6 @@ public class HomePage {
     public void search(String text) {
         searchInput.find();
         searchInput.type(text);
+        searchInput.pressEnter();
     }
 }

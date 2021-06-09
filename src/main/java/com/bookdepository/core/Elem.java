@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import static org.openqa.selenium.Keys.ENTER;
+
 public class Elem {
 
     private By by;
@@ -23,6 +25,10 @@ public class Elem {
     public void type(String text) {
         find().clear();
         find().sendKeys(text);
+    }
+
+    public void pressEnter() {
+        find().sendKeys(ENTER);
     }
 
     public String getTextByAttribute(String attribute) {

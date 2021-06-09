@@ -10,7 +10,7 @@ public class HomePageTest extends BrowserFactory {
 
     private final String bookTitle = "Harry Potter and the Cursed Child - Parts I & II";
     private final String searchTerm = "Potter";
-    private final String orderTotal = "17,18 €";
+    private final String orderTotal = "17,22 €";
     private String deliveryCost = "FREE";
 
     HomePage homePage = new HomePage();
